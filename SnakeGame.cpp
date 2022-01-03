@@ -38,9 +38,11 @@ for (int i=0; i<width+2; i++)
 
 cout<<endl;
 
-for (int i=0; i<height; i++) {
+for (int i=0; i<height; i++) 
+{
 
-    for (int j = 0; j<width ; j++){
+    for (int j = 0; j<width ; j++)
+		{
 
         if (j==0)
             cout << "#";
@@ -118,7 +120,8 @@ int prev2x,prev2y;
 tailx[0]=x;
 taily[0]=y;
 
-for ( int i =1; i <nTail; i++){
+for ( int i =1; i <nTail; i++)
+{
 
     prev2x=tailx[i];
     prev2y=taily[i];
